@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArticleCard } from "@/components/ArticleCard";
-import { Newsletter } from "@/components/Newsletter";
 import { articles } from "@/data/articles";
 import heroBackground from "@/assets/hero-background.jpg";
 
@@ -118,9 +117,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* Newsletter */}
-      <Newsletter />
 
       <Footer />
     </div>

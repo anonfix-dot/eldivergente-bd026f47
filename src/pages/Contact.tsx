@@ -121,10 +121,10 @@ const Contact = () => {
           <div className="mt-12 text-center">
             <p className="text-muted-foreground mb-4">También puedes contactarme por email directamente:</p>
             <a
-              href="mailto:info@agenda33.com"
+              href="mailto:elantisistema@proton.me"
               className="text-primary hover:text-primary-glow transition-colors font-medium glow-blue"
             >
-              info@agenda33.com
+              elantisistema@proton.me
             </a>
           </div>
         </div>
