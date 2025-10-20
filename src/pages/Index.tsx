@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { ArticleCard } from "@/components/ArticleCard";
 import { articles } from "@/data/articles";
 import heroBackground from "@/assets/hero-background.jpg";
+import logoAgenda33 from "@/assets/logo-agenda33.png";
 
 const Index = () => {
   const latestArticles = articles.slice(0, 3);
@@ -27,7 +28,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center z-10 animate-fade-in">
           <div className="max-w-4xl mx-auto">
             <div className="mb-8 inline-block">
-              <Eye className="text-primary animate-float" size={80} />
+              <img src={logoAgenda33} alt="Agenda33 Logo" className="w-24 h-24 animate-float" />
             </div>
             
             <h1 className="font-heading text-5xl md:text-7xl font-bold mb-6 glow-blue">
