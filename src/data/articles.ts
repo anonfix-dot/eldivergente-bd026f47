@@ -1,6 +1,9 @@
 import geopoliticsImg from "@/assets/article-geopolitics.jpg";
 import societiesImg from "@/assets/article-societies.jpg";
 import economyImg from "@/assets/article-economy.jpg";
+import imperioFronteraImg from "@/assets/article-imperio-frontera.jpg";
+import latinoamericaEstrategiaImg from "@/assets/article-latinoamerica-estrategia.jpg";
+import gazaCrisisImg from "@/assets/article-gaza-crisis.jpg";
 
 export interface Article {
   id: string;
@@ -14,6 +17,68 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {
+    id: "imperio-frontera-dolor",
+    title: "El Imperio y la Frontera del Dolor: de la Doctrina Monroe al silencio sobre Gaza",
+    excerpt: "Un análisis crítico sobre las estrategias de poder estadounidense en América Latina y la tragedia humanitaria en Gaza, revelando los dobles raseros del orden internacional.",
+    content: `
+## América Latina: el reinicio de un patio de juego
+
+Los viejos instrumentos del poder estadounidense vuelven a afinarse en Latinoamérica. Tras años de relativa retirada, Washington ha vuelto a enfocar la región como pieza clave para sus intereses estratégicos: rutas comerciales, materias primas, equilibrio frente a potencias emergentes como China y control político-ideológico.
+
+<div class="my-8">
+  <img src="${latinoamericaEstrategiaImg}" alt="Mapa estratégico de América Latina" class="w-full rounded-lg shadow-lg" />
+</div>
+
+Según análisis recientes, la estrategia del gobierno norteamericano incluye contrarrestar la influencia china, asegurar acceso a recursos naturales críticos y mantener alianzas que garanticen su hegemonía en el hemisferio occidental.
+
+<div class="my-8 aspect-video">
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/Kpyhnp61vhI" title="Geopolítica en América Latina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+Por ejemplo, América Latina está siendo vista tanto como fuente de materias primas como zona estratégica para cadenas globales de valor y para contener a China. Al mismo tiempo los países latinoamericanos muestran una diversificación de alianzas y una menor disposición a subordinarse pasivamente.
+
+El resultado es un escenario de tensiones crecientes: Washington empuja por recuperar protagonismo; los estados latinoamericanos demandan respeto a su soberanía; China, Rusia y otros actores ganan terreno. En este juego, la región se convierte en un tablero donde los intereses estratégicos exteriores se mezclan con dinámicas internas de desigualdad, recursos naturales y dependencia estructural.
+
+## Gaza/Palestina: aceleración de una tragedia humanitaria
+
+Paralelamente, en Medio Oriente la situación en Gaza y Cisjordania entra en una fase de destrucción acelerada. En el territorio de Gaza, la combinación de bloqueo, bombardeos, destrucción de infraestructura humanitaria y desplazamiento masivo ha llevado a un desastre de dimensiones dramáticas.
+
+<div class="my-8">
+  <img src="${gazaCrisisImg}" alt="Crisis humanitaria en Gaza" class="w-full rounded-lg shadow-lg" />
+</div>
+
+Organismos como Amnesty International han concluido que la conducta israelí "incluye actos genocidas" al inferir que el objetivo es "destruir, al menos en parte, al pueblo palestino de Gaza".
+
+<div class="my-8 aspect-video">
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/HnZSaKYmP2s" title="Situación en Gaza" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+La destrucción no se limita al combate militar: el acceso al agua potable, servicios básicos, hospitales operativos o refugiados con un lugar seguro se ha visto severamente comprometido. Las declaraciones internacionales señalan que esto no es simplemente una consecuencia colateral de la guerra, sino parte de una estrategia que apunta a debilitar la vida social, económica y política palestina.
+
+El papel de los Estados Unidos es relevante: como aliado principal de Israel en lo militar, diplomático y financiero, Washington tiene responsabilidad política en cómo la campaña israelí se desarrolla y se sostiene. Aunque la narrativa oficial diga que el objetivo es Hamas y la seguridad israelí, la magnitud del sufrimiento civil plantea preguntas sobre proporcionalidad, legalidad y moralidad.
+
+## Interrelación: poder global, soberanía y doble rasero
+
+Estas dos realidades —Latinoamérica y Gaza— muestran un patrón común: grandes potencias (EE.UU., China, etc.) utilizan regiones menos poderosas para asegurar recursos, influencia y posiciones estratégicas; al mismo tiempo, esas mismas regiones sufren los costos de esa dinámica.
+
+<div class="my-8 aspect-video">
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/BT5L4YU_Fl4" title="Orden mundial y poder global" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+En Latinoamérica, el control de flujos de comercio, infraestructura y política interna pasa por Washington; en Palestina, la ocupación, el bloqueo y la guerra pasan por la capacidad de Israel (y su gran aliado, EE.UU.) de ejercer un dominio que trasciende lo meramente militar.
+
+Existe un doble rasero: en un hemisferio se promueve el discurso de "alianza y libre mercado", en el otro se tolera o financia una política de fuerza que ha sido calificada por organismos de derechos humanos como posible genocidio. Esa incoherencia del orden internacional no pasa inadvertida a los ojos de los actores regionales ni de los pueblos afectados.
+
+## Conclusión
+
+EE.UU. en Latinoamérica busca reconquistar un rol de liderazgo que considera perdido, adaptándose al nuevo escenario multipolar, pero con la lógica tradicional de acceso a recursos y control estratégico. En Gaza/Palestina, la tragedia humanitaria se agrava bajo la lógica de seguridad de Israel y el apoyo estadounidense, con consecuencias que muchos califican como genocidio. Para interpretar el mundo actual, es útil ver estos dos casos como espejos de una misma mecánica global: poder, dependencia y sufrimiento humano.
+    `,
+    image: imperioFronteraImg,
+    category: "Geopolítica",
+    date: "20 de Abril, 2025",
+    author: "Agenda33"
+  },
   {
     id: "geopolitica-nueva-era",
     title: "La Nueva Era Geopolítica: El Tablero de Ajedrez Global",
