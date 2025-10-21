@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArticleCard } from "@/components/ArticleCard";
 import { articles } from "@/data/articles";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
 const ArticleDetail = () => {
   const { id } = useParams();
@@ -67,6 +68,7 @@ const ArticleDetail = () => {
 
           <div className="prose prose-invert prose-lg max-w-none mb-12">
             <ReactMarkdown
+              rehypePlugins={[rehypeRaw]}
               components={{
                 h2: ({ children }) => (
                   <h2 className="font-heading text-3xl font-bold mt-12 mb-6 text-primary glow-blue">{children}</h2>
