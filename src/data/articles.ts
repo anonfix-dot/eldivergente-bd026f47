@@ -33,7 +33,7 @@ Los viejos instrumentos del poder estadounidense vuelven a afinarse en Latinoam�
 Según análisis recientes, la estrategia del gobierno norteamericano incluye contrarrestar la influencia china, asegurar acceso a recursos naturales críticos y mantener alianzas que garanticen su hegemonía en el hemisferio occidental.
 
 <div class="my-8 aspect-video">
-  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/XMxr5SW16hQ" title="Geopolítica en América Latina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/doWz7vA4BkM" title="Geopolítica en América Latina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Por ejemplo, América Latina está siendo vista tanto como fuente de materias primas como zona estratégica para cadenas globales de valor y para contener a China. Al mismo tiempo los países latinoamericanos muestran una diversificación de alianzas y una menor disposición a subordinarse pasivamente.
@@ -51,7 +51,7 @@ Paralelamente, en Medio Oriente la situación en Gaza y Cisjordania entra en una
 Organismos como Amnesty International han concluido que la conducta israelí "incluye actos genocidas" al inferir que el objetivo es "destruir, al menos en parte, al pueblo palestino de Gaza".
 
 <div class="my-8 aspect-video">
-  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/9RC1Mepk_Sw" title="Crisis humanitaria en Gaza" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/Sy097eqPYWw" title="Crisis humanitaria en Gaza" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 La destrucción no se limita al combate militar: el acceso al agua potable, servicios básicos, hospitales operativos o refugiados con un lugar seguro se ha visto severamente comprometido. Las declaraciones internacionales señalan que esto no es simplemente una consecuencia colateral de la guerra, sino parte de una estrategia que apunta a debilitar la vida social, económica y política palestina.
