@@ -13,7 +13,7 @@ import controlMediaticoImg from "@/assets/article-control-mediatico.jpg";
 import redesComunitariasImg from "@/assets/article-redes-comunitarias.jpg";
 import concienciaSocialImg from "@/assets/article-conciencia-social.jpg";
 import losDeAbajoImg from "@/assets/article-los-de-abajo.jpg";
-import doctrinaLuciferinaImg from "@/assets/article-doctrina-luciferina.jpg";
+import doctrinaLuciferinaImg from "@/assets/article-doctrina-luciferina.png";
 
 export interface Article {
   id: string;
