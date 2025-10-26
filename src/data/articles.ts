@@ -14,6 +14,7 @@ import redesComunitariasImg from "@/assets/article-redes-comunitarias.jpg";
 import concienciaSocialImg from "@/assets/article-conciencia-social.jpg";
 import losDeAbajoImg from "@/assets/article-los-de-abajo.jpg";
 import doctrinaLuciferinaImg from "@/assets/article-doctrina-luciferina.png";
+import cuneoConfederacionImg from "@/assets/article-cuneo-confederacion.png";
 
 export interface Article {
   id: string;
@@ -27,6 +28,169 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {
+    id: "santiago-cuneo-confederacion-argentina",
+    title: "Santiago Cúneo y la Confederación Argentina: disidencia, secta o instrumento del poder",
+    excerpt: "Durante los últimos años, la figura de Santiago Cúneo ha pasado de ser una curiosidad mediática a transformarse en un fenómeno político que despierta interés y sospecha por igual. Un análisis profundo sobre su propuesta confederal, sus contradicciones y su posible rol como disidencia controlada.",
+    content: `
+## De periodista a profeta político
+
+Durante los últimos años, la figura de Santiago Cúneo ha pasado de ser una curiosidad mediática a transformarse en un fenómeno político que despierta interés y sospecha por igual. Presentado como nacionalista, defensor de la fe y enemigo del globalismo, propone refundar el país bajo un modelo de "Confederación Argentina". Pero detrás del discurso épico y moralista, se dibuja un patrón que encaja con lo que en la teoría política moderna se conoce como "disidencia controlada": una oposición fabricada para contener y redirigir el descontento social dentro de los márgenes del propio sistema.
+
+Entre fines de los años noventa y mediados de la década de 2010, Cúneo fue un operador mediático ligado al peronismo bonaerense. Condujo programas de televisión, apoyó a distintos gobiernos —desde el kirchnerismo hasta Mauricio Macri— y nunca logró consolidarse políticamente.
+
+El punto de inflexión llega en 2018, cuando es expulsado de Crónica TV tras un editorial contra Israel. Ese episodio lo reconfigura: pasa de periodista del sistema a "perseguido por el poder mundial". Desde entonces, construye su personaje como víctima de la censura y profeta nacional.
+
+En 2021 lanza el libro *Democracia Confederal I*, seguido de *Democracia Confederal II*, y funda el Movimiento Democrático Confederal Argentino, proclamando la llegada de una nueva etapa: la refundación del país bajo una Confederación.
+
+## La doctrina confederal: entre el federalismo y la fragmentación
+
+Cúneo sostiene que la solución para la Argentina es abandonar el modelo federal actual y pasar a una Confederación donde cada provincia recupere soberanía plena y el gobierno central sólo se ocupe de defensa, moneda y política exterior.
+
+Aunque el concepto remite al viejo ideal de Urquiza o Alberdi, la palabra "confederación" implica una unión más débil, más parecida a un pacto temporal entre Estados que a una nación. En un contexto global donde el poder busca fragmentar a los países latinoamericanos, esa idea puede ser interpretada como una vía hacia la **balcanización encubierta** del territorio argentino, disfrazada de soberanía provincial.
+
+El discurso confederal mezcla nacionalismo, religión y anti-globalismo. Dios, la Patria y el enemigo extranjero se funden en una retórica emocional que exalta al pueblo argentino como pueblo elegido y denuncia una élite global corrupta. Sin embargo, el proyecto carece de estructura económica o institucional clara. Es, más que una doctrina política, **una mística de redención**.
+
+## La paradoja del líder sin pueblo
+
+El fenómeno confederal no tiene militancia visible, ni comités, ni estructura partidaria. No organiza marchas, no se inserta en protestas sociales y sólo mantiene presencia digital. Cúneo viaja por el país, pero sus actos no son masivos ni se difunden con antelación.
+
+Este aislamiento contrasta con el discurso de líder popular. En lugar de sumar bases, cultiva una comunidad emocional cerrada: seguidores que lo consideran una voz profética más que un político. Esa dinámica —la del líder rodeado de creyentes, no de militantes— da al movimiento un **perfil casi sectario**.
+
+En sociología política, una secta se caracteriza por la centralidad absoluta del líder, la idea de misión salvadora y el control simbólico del relato. El confederalismo de Cúneo cumple todos esos rasgos: mística patriótica, moral religiosa, enemigo absoluto, y una fe incondicional en el conductor.
+
+## Los indicios del control
+
+Varias señales sugieren que la "Confederación Argentina" podría ser una disidencia funcional al poder.
+
+**Primero**, el relato de autofinanciamiento mediante libros replica punto por punto la estrategia de Javier Milei: la construcción del mito del outsider sin apoyo empresarial.
+
+**Segundo**, la posición electoral privilegiada del partido de Cúneo —segundo en la boleta única bonaerense detrás de La Libertad Avanza, pese a ser una fuerza nueva— resulta estadísticamente improbable. En elecciones con sorteo aleatorio, que dos fuerzas antisistema aparezcan consecutivas es, como mínimo, llamativo.
+
+**Tercero**, la ausencia de enfrentamiento directo con Milei: Cúneo lo ataca, pero Milei nunca responde. En la política argentina, el silencio selectivo suele marcar líneas de pacto o tolerancia.
+
+Y **cuarto**, el cierre de campaña en La Plata, ciudad históricamente vinculada a la masonería, añade un componente simbólico que alimenta las sospechas de vínculos estructurales con redes de poder oculto o logias tradicionales.
+
+## Ideología o ingeniería narrativa
+
+La mezcla de religión, nacionalismo y anti-globalismo que propone Cúneo no forma un cuerpo doctrinal coherente, sino un **ensamblaje emocional cuidadosamente calibrado**.
+
+Cada elemento está diseñado para atraer a un segmento del electorado: el patriota desilusionado, el creyente tradicional y el ciudadano que percibe el colapso moral del sistema. Pero no hay programa económico, ni plan institucional, ni equipo técnico.
+
+El mensaje confederal no busca gobernar: busca **retener la fe de los descontentos**. Y ese es, precisamente, el rol que cumple una disidencia controlada: contener la rabia dentro de un discurso que parece revolucionario pero no altera las estructuras reales del poder.
+
+## Línea de tiempo del relato confederal (1999–2025)
+
+**1999–2007**: Empresario y periodista peronista. Discurso industrialista, dentro del sistema.
+
+**2008–2014**: Participación en estructuras peronistas y kirchneristas. Busca cargos sin éxito.
+
+**2015–2018**: Apoya a Macri y Cambiemos. Inicia giro liberal-conservador. Sale de Crónica TV tras escándalo y se reposiciona como víctima del sistema.
+
+**2019–2020**: Comienza su etapa antisistema y mística; inicia canal propio en YouTube.
+
+**2021–2022**: Publica *Democracia Confederal I* y lanza el Movimiento Democrático Confederal Argentino.
+
+**2023–2024**: Multiplica apariciones digitales y consolida el discurso confederal como doctrina.
+
+**2025**: Candidatura en Buenos Aires por el partido Nuevo Buenos Aires. Cierra campaña en La Plata. Sin estructura ni militancia real.
+
+**Interpretación**: la evolución no es ideológica sino funcional: de operador mediático a profeta político. Cada cambio coincide con una crisis nacional y parece responder a necesidades del sistema, no a convicciones personales.
+
+## Comparación con otras disidencias controladas del Cono Sur
+
+Cúneo encaja en un patrón regional ya conocido:
+
+- **Ricardo López Murphy (Argentina)**: liberal antisistema funcional a la derecha tradicional.
+- **Luis D'Elía o Guillermo Moreno**: críticos del poder pero integrados al aparato peronista.
+- **Norberto Ceresole (Venezuela)**: teórico del poder carismático que inspiró a Chávez, luego absorbido por el Estado.
+- **Jair Bolsonaro (Brasil)**: outsider antisistema convertido en garante del sistema económico-militar.
+
+El modelo es siempre el mismo: se construye un discurso emocional, se canaliza la frustración popular, y luego se reintegra esa energía al orden establecido. Cúneo representa la versión nacionalista de ese patrón: un **Milei patriótico, controlado y predecible**.
+
+## El doble discurso internacional: entre el silencio y la fachada
+
+Una de las incoherencias más visibles del movimiento confederal aparece en el plano internacional.
+
+Aunque Cúneo y su partido se presentan como antiimperialistas, **nunca se pronunciaron en defensa de Venezuela**, país que hoy enfrenta agresiones directas de Estados Unidos.
+
+Más allá de simpatías o críticas hacia Maduro, un nacionalismo soberano debería respaldar el derecho de un país latinoamericano a defender sus recursos. Su silencio muestra una frontera invisible: la del discurso permitido.
+
+Al mismo tiempo, Cúneo menciona Palestina y los BRICS, pero lo hace de forma superficial, sin acompañamiento diplomático, técnico ni político. Son **etiquetas simbólicas**, utilizadas para reforzar su fachada patriótica sin comprometerse con consecuencias reales.
+
+El patrón es claro: pronunciamientos parciales y retóricos que simulan soberanía, pero mantienen intacta la dependencia cultural y geopolítica. En términos prácticos, el confederalismo de Cúneo es **nacionalismo de consigna, no de acción**.
+
+## Secesión, pena de muerte y el riesgo de la balcanización encubierta
+
+En recientes declaraciones, Cúneo sostuvo que las secesiones sólo se producen en sistemas republicanos, mientras que bajo su modelo confederal estarían "planificadas estratégicamente" y sujetas a control estatal.
+
+Además, propuso imponer la **pena de muerte** para "traidores a la Patria" y delitos aberrantes.
+
+Estas afirmaciones, más que proyectos concretos, parecen **etiquetas de autoridad**: expresiones simbólicas que refuerzan su imagen de líder fuerte, pero cuya aplicación real es casi inviable.
+
+En la Argentina, la pena capital está abolida en la práctica y su restitución requeriría reforma constitucional, consenso legislativo y ruptura del marco de derechos humanos vigente. Su implementación es altamente improbable sin un quiebre institucional.
+
+Del mismo modo, una "secesión planificada" chocaría con la Constitución Nacional y el principio de unidad territorial.
+
+Sin embargo, detrás de estas consignas puede esconderse un proceso más sutil: la **balcanización económica**. Si las provincias recuperaran el control total de sus riquezas sin mecanismos de solidaridad nacional, las regiones más pobres quedarían expuestas a la ruina, generando fractura social y migraciones internas masivas.
+
+Una confederación sin redistribución llevaría a la fragmentación funcional del país, con provincias ricas convertidas en pseudoestados y provincias pobres subordinadas a capitales externos.
+
+Los mecanismos para evitar ese colapso —fondos de compensación, acuerdos de cooperación y garantías de derechos básicos— **no aparecen en la doctrina confederal**.
+
+Por eso, las declaraciones sobre "pena de muerte" y "plan estratégico" de secesión son menos un proyecto de Estado que un **discurso disciplinador**: un intento de imponer autoridad simbólica sobre una estructura inexistente.
+
+## Mapa estructural de relaciones (versión 2025)
+
+### Núcleo central
+
+- **Santiago Cúneo**: líder único, conductor, ideólogo y comunicador. Control absoluto del mensaje. *(Evidencia alta)*
+- **Movimiento Democrático Confederal Argentino / Partido Nuevo Buenos Aires**: estructura legal mínima, sin militancia. *(Evidencia alta)*
+- **Red mediática propia**: YouTube, redes sociales, portales afines. *(Evidencia alta)*
+
+### Entorno visible
+
+- **Sindicatos de transporte (UTA La Plata, ATE local)**: apoyo logístico puntual. *(Evidencia media)*
+- **Aliados peronistas menores**: respaldo simbólico, sin estructura. *(Media-baja)*
+- **Canales alternativos**: pequeños medios nacionalistas y conspirativos. *(Alta)*
+- **Audiencia base**: nacionalistas católicos y ex peronistas desencantados. *(Alta)*
+
+### Entorno probable (hipótesis)
+
+- **Redes empresariales conservadoras**: posible soporte técnico o mediático. *(Baja)*
+- **Coincidencias narrativas con La Libertad Avanza**: posible complementariedad discursiva. *(Baja-media)*
+- **Inspiración internacional soberanista**: sin conexión material probada. *(Baja)*
+- **Simbología masónica (La Plata)**: componente simbólico no probado. *(Baja)*
+
+**Síntesis**: el movimiento es vertical, cerrado y mediático. No busca poder territorial, sino control discursivo. Funciona como instrumento simbólico de contención del descontento post-Milei.
+
+## Conclusión: el espejismo de la emancipación
+
+Santiago Cúneo ofrece a una parte del país una promesa de redención: recuperar la soberanía, la moral y la fe. Pero bajo esa épica late una estructura diseñada para neutralizar el verdadero potencial de ruptura social.
+
+Su Confederación Argentina no es el nuevo orden que promete, sino un **dispositivo narrativo** que permite al sistema adaptarse a los tiempos: después del liberalismo de Milei, una fase patriótica y espiritual, pero igual de controlada.
+
+El peligro no está en la Confederación como idea —que podría tener fundamentos válidos—, sino en su posible uso como fachada del mismo poder global que dice enfrentar. En esa paradoja, Cúneo encarna la figura del **falso redentor**: aquel que promete liberar a la Patria, pero termina custodiando su prisión.
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Autor: Redacción de El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Política</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Argentina</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Disidencia controlada</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Confederación</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Análisis político</span>
+  </div>
+</div>
+    `,
+    image: cuneoConfederacionImg,
+    category: "Política",
+    date: "2025-01-26",
+    author: "Redacción de El Divergente"
+  },
   {
     id: "doctrina-luciferina-mundo-terrenal",
     title: "Los crueles y los genocidas son premiados mientras los de noble corazón y alma son marginados y vituperados... la doctrina luciferina operando en el mundo terrenal día y noche",
