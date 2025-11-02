@@ -15,7 +15,7 @@ interface ArticleCardProps {
 export const ArticleCard = ({ id, title, excerpt, image, category, date }: ArticleCardProps) => {
   return (
     <Card className="bg-card border border-primary/20 overflow-hidden group hover:border-primary/50 transition-all duration-300 glow-box-blue h-full flex flex-col">
-      <div className="relative overflow-hidden h-48">
+      <div className="relative overflow-hidden h-72">
         <img
           src={image}
           alt={title}
@@ -28,14 +28,14 @@ export const ArticleCard = ({ id, title, excerpt, image, category, date }: Artic
         </div>
       </div>
 
-      <CardHeader>
-        <h3 className="font-heading text-xl font-bold group-hover:text-primary transition-colors line-clamp-2">
+      <CardHeader className="pb-3">
+        <h3 className="font-heading text-lg font-bold group-hover:text-primary transition-colors line-clamp-2">
           {title}
         </h3>
       </CardHeader>
 
-      <CardContent className="flex-grow">
-        <p className="text-muted-foreground text-sm line-clamp-3">{excerpt}</p>
+      <CardContent className="flex-grow pb-3">
+        <p className="text-muted-foreground text-sm line-clamp-2">{excerpt}</p>
       </CardContent>
 
       <CardFooter className="flex items-center justify-between">
