@@ -18,11 +18,11 @@ const Index = () => {
     return acc;
   }, {} as Record<string, typeof articles>);
 
-  // Obtener las últimas 2 artículos por categoría
+  // Obtener los últimos 3 artículos por categoría
   const categoriesWithArticles = Object.entries(articlesByCategory)
     .map(([category, articles]) => ({
       category,
-      articles: articles.slice(0, 2)
+      articles: articles.slice(0, 3)
     }))
     .filter(item => item.articles.length > 0);
 
@@ -128,7 +128,7 @@ const Index = () => {
                   </Link>
                 </div>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {articles.map((article) => (
                     <ArticleCard key={article.id} {...article} />
                   ))}
