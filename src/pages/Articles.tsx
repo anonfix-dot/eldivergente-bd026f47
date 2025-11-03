@@ -12,7 +12,7 @@ const Articles = () => {
   const filteredArticles =
     selectedCategory === "Todos"
       ? articles.slice(0, 12)
-      : articles.filter((article) => article.category === selectedCategory).slice(0, 4);
+      : articles.filter((article) => article.category === selectedCategory).slice(0, 3);
 
   return (
     <div className="min-h-screen">
