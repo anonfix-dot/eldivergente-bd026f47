@@ -21,7 +21,11 @@ export type Database = {
           author_name: string
           comment_text: string
           created_at: string
+          honeypot: string | null
           id: string
+          ip_address: string | null
+          is_approved: boolean | null
+          user_agent: string | null
         }
         Insert: {
           article_id: string
@@ -29,7 +33,11 @@ export type Database = {
           author_name: string
           comment_text: string
           created_at?: string
+          honeypot?: string | null
           id?: string
+          ip_address?: string | null
+          is_approved?: boolean | null
+          user_agent?: string | null
         }
         Update: {
           article_id?: string
@@ -37,7 +45,35 @@ export type Database = {
           author_name?: string
           comment_text?: string
           created_at?: string
+          honeypot?: string | null
           id?: string
+          ip_address?: string | null
+          is_approved?: boolean | null
+          user_agent?: string | null
+        }
+        Relationships: []
+      }
+      newsletter_subscribers: {
+        Row: {
+          email: string
+          id: string
+          ip_address: string | null
+          subscribed_at: string
+          user_agent: string | null
+        }
+        Insert: {
+          email: string
+          id?: string
+          ip_address?: string | null
+          subscribed_at?: string
+          user_agent?: string | null
+        }
+        Update: {
+          email?: string
+          id?: string
+          ip_address?: string | null
+          subscribed_at?: string
+          user_agent?: string | null
         }
         Relationships: []
       }

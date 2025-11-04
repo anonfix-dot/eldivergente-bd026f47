@@ -38,6 +38,7 @@ export const Comments = ({ articleId }: CommentsProps) => {
   const [comments, setComments] = useState<Comment[]>([]);
   const [authorName, setAuthorName] = useState("");
   const [commentText, setCommentText] = useState("");
+  const [honeypot, setHoneypot] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
@@ -63,6 +64,20 @@ export const Comments = ({ articleId }: CommentsProps) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
+    // Bot detection: if honeypot field is filled, it's a bot
+    if (honeypot) {
+      console.log("Bot detected via honeypot");
+      // Silently fail for bots
+      toast({
+        title: "Comentario enviado",
+        description: "Tu comentario será revisado antes de publicarse.",
+      });
+      setAuthorName("");
+      setCommentText("");
+      setHoneypot("");
+      return;
+    }
+    
     // Validar datos
     try {
       commentSchema.parse({
@@ -86,6 +101,8 @@ export const Comments = ({ articleId }: CommentsProps) => {
       article_id: articleId,
       author_name: authorName.trim(),
       comment_text: commentText.trim(),
+      honeypot: honeypot || null,
+      is_approved: false, // Comments require approval
     });
 
     setIsSubmitting(false);
@@ -101,12 +118,13 @@ export const Comments = ({ articleId }: CommentsProps) => {
 
     toast({
       title: "Comentario enviado",
-      description: "Tu comentario ha sido publicado exitosamente.",
+      description: "Tu comentario será revisado antes de publicarse.",
     });
 
     // Limpiar formulario y recargar comentarios
     setAuthorName("");
     setCommentText("");
+    setHoneypot("");
     loadComments();
   };
 
@@ -148,9 +166,26 @@ export const Comments = ({ articleId }: CommentsProps) => {
           </p>
         </div>
 
+        {/* Honeypot field - hidden from users, catches bots */}
+        <div className="absolute opacity-0 pointer-events-none" aria-hidden="true">
+          <label htmlFor="website">Website</label>
+          <input
+            type="text"
+            id="website"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            value={honeypot}
+            onChange={(e) => setHoneypot(e.target.value)}
+          />
+        </div>
+
         <Button type="submit" disabled={isSubmitting}>
           {isSubmitting ? "Enviando..." : "Publicar comentario"}
         </Button>
+        <p className="text-sm text-muted-foreground mt-2">
+          Los comentarios son moderados antes de publicarse.
+        </p>
       </form>
 
       {/* Lista de comentarios */}
