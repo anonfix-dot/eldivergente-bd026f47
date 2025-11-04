@@ -27,13 +27,6 @@ const commentSchema = z.object({
     .trim()
     .min(1, { message: "El nombre es obligatorio" })
     .max(100, { message: "El nombre debe tener menos de 100 caracteres" }),
-  authorEmail: z
-    .string()
-    .trim()
-    .email({ message: "Email inválido" })
-    .max(255, { message: "El email debe tener menos de 255 caracteres" })
-    .optional()
-    .or(z.literal("")),
   commentText: z
     .string()
     .trim()
@@ -44,7 +37,6 @@ const commentSchema = z.object({
 export const Comments = ({ articleId }: CommentsProps) => {
   const [comments, setComments] = useState<Comment[]>([]);
   const [authorName, setAuthorName] = useState("");
-  const [authorEmail, setAuthorEmail] = useState("");
   const [commentText, setCommentText] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
@@ -75,7 +67,6 @@ export const Comments = ({ articleId }: CommentsProps) => {
     try {
       commentSchema.parse({
         authorName,
-        authorEmail: authorEmail || undefined,
         commentText,
       });
     } catch (error) {
@@ -94,7 +85,6 @@ export const Comments = ({ articleId }: CommentsProps) => {
     const { error } = await supabase.from("comments").insert({
       article_id: articleId,
       author_name: authorName.trim(),
-      author_email: authorEmail.trim() || null,
       comment_text: commentText.trim(),
     });
 
@@ -116,7 +106,6 @@ export const Comments = ({ articleId }: CommentsProps) => {
 
     // Limpiar formulario y recargar comentarios
     setAuthorName("");
-    setAuthorEmail("");
     setCommentText("");
     loadComments();
   };
@@ -131,29 +120,16 @@ export const Comments = ({ articleId }: CommentsProps) => {
       <form onSubmit={handleSubmit} className="mb-8 p-6 bg-card border border-border rounded-lg">
         <h3 className="font-heading text-xl font-bold mb-4">Deja tu comentario</h3>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-          <div>
-            <Label htmlFor="authorName">Nombre *</Label>
-            <Input
-              id="authorName"
-              value={authorName}
-              onChange={(e) => setAuthorName(e.target.value)}
-              placeholder="Tu nombre"
-              maxLength={100}
-              required
-            />
-          </div>
-          <div>
-            <Label htmlFor="authorEmail">Email (opcional)</Label>
-            <Input
-              id="authorEmail"
-              type="email"
-              value={authorEmail}
-              onChange={(e) => setAuthorEmail(e.target.value)}
-              placeholder="tu@email.com"
-              maxLength={255}
-            />
-          </div>
+        <div className="mb-4">
+          <Label htmlFor="authorName">Nombre *</Label>
+          <Input
+            id="authorName"
+            value={authorName}
+            onChange={(e) => setAuthorName(e.target.value)}
+            placeholder="Tu nombre"
+            maxLength={100}
+            required
+          />
         </div>
 
         <div className="mb-4">
