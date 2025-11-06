@@ -1317,36 +1317,6 @@ El verdadero poder geopolítico no reside en los parlamentos ni en los palacios 
     author: "El Divergente"
   },
   {
-    id: "sociedades-secretas-poder",
-    title: "Sociedades Secretas: Los Arquitectos del Poder Oculto",
-    excerpt: "Desde la masonería hasta los Skull & Bones, exploramos las organizaciones secretas que han moldeado la historia y continúan influyendo en el presente.",
-    content: `
-## Los Arquitectos del Poder Oculto
-
-A lo largo de la historia, las sociedades secretas han sido vehículos de poder e influencia. Lejos de ser meras organizaciones fraternales, muchas de estas instituciones han desempeñado roles cruciales en revoluciones, guerras y transformaciones políticas fundamentales.
-
-### La Masonería y su Influencia
-
-La francmasonería, con sus raíces en los gremios de constructores medievales, se transformó en una red global de influencia política y económica. Numerosos líderes revolucionarios, padres fundadores de naciones y figuras de poder han sido masones confirmados.
-
-### Skull & Bones y la Elite de Yale
-
-La sociedad Skull & Bones de la Universidad de Yale ha producido un número desproporcionado de presidentes, secretarios de estado, directores de la CIA y magnates de Wall Street. ¿Coincidencia o diseño?
-
-### Bohemian Grove: El Club de los Poderosos
-
-Cada verano, la élite global se reúne en los bosques del norte de California para rituales secretos y networking de alto nivel. Políticos, CEOs y figuras mediáticas se congregan en un ambiente donde, según sus propias palabras, "las telarañas del cuidado mundano" son dejadas atrás.
-
-### El Círculo Interno del Poder
-
-Estas organizaciones no son simplemente clubes sociales de élite. Son espacios donde se forjan alianzas, se toman decisiones que afectan a millones y se perpetúa una visión particular del orden mundial.
-    `,
-    image: "/images/article-societies.jpg",
-    category: "Sociedad",
-    date: "8 de Abril, 2025",
-    author: "El Divergente"
-  },
-  {
     id: "economia-oculta-control",
     title: "La Economía Oculta: Dinero, Deuda y Control Global",
     excerpt: "El sistema financiero global opera bajo principios que benefician a una élite bancaria internacional. Desentrañamos los mecanismos de control económico.",
