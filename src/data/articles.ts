@@ -13,6 +13,159 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "los-de-abajo-proyecto-poder-popular",
+    title: '"Los de Abajo": El Proyecto que Reivindica el Verdadero Poder Popular',
+    excerpt: "Un nuevo espacio digital surge para demostrar que el verdadero poder no está arriba, en las élites, sino abajo, en la base donde la gente sostiene con dignidad la estructura de la sociedad. Descubre el proyecto que invierte la pirámide del poder.",
+    content: `
+## Un Nuevo Paradigma: La Pirámide Invertida del Poder
+
+En un mundo donde el poder parece concentrarse eternamente en las cúspides del dinero, la política y las corporaciones, surge **"Los de Abajo"** ([losdeabajo.lovable.app](https://losdeabajo.lovable.app)): un proyecto digital que desafía la narrativa dominante y propone una visión revolucionaria de dónde reside el verdadero poder social.
+
+La premisa es tan simple como transformadora: **el poder real no está arriba, sino abajo**. En la base donde millones de personas sostienen con su trabajo, su resiliencia y su dignidad la estructura misma de la civilización.
+
+## ¿Qué es "Los de Abajo"?
+
+"Los de Abajo" es más que un sitio web o un proyecto editorial. Es un **movimiento de conciencia** que busca reconocer, visibilizar y potenciar el valor humano, espiritual y político de quienes han sido históricamente relegados: la clase trabajadora, los pobres, los excluidos del sistema.
+
+El proyecto nace desde el convencimiento de que la pobreza no es una carencia de poder, sino una experiencia que forja valores esenciales que las élites han perdido hace tiempo:
+
+- **Empatía y solidaridad** nacidas de la necesidad compartida
+- **Resiliencia y creatividad** ante la escasez de recursos
+- **Sabiduría espiritual** que surge cuando lo material no distrae
+- **Valores comunitarios** que superan el individualismo del mercado
+
+### La Pirámide Invertida
+
+El sitio presenta un modelo visual contundente: una pirámide invertida donde:
+
+**En la base (que es la cumbre del poder real):**
+- **La Clase Pobre**: Poseedores del verdadero poder. Aunque carecen de capital económico, tienen la mayor riqueza en experiencias humanas, empatía, resiliencia y sabiduría espiritual. Su humanidad los hace poderosos.
+
+**En el centro:**
+- **La Clase Media y Alta**: Han transferido su poder al capital. Ya no conservan el poder humano ni espiritual, pues han abandonado los valores comunitarios y patrióticos para regirse por el dinero.
+
+**En la punta (el nivel más débil):**
+- **La Clase Política**: El nivel más desconectado del pueblo. Una clase servil a los bancos, corporaciones y poderes externos. Sin base real, sin legitimidad genuina.
+
+## El Poder Invisible de los que Luchan Cada Día
+
+Uno de los ejes centrales del proyecto es reconocer ese **poder invisible** que sostiene al mundo:
+
+> *"Vivir en la pobreza no es solo una condición económica; es, sobre todo, una experiencia humana profunda. Quien ha atravesado la escasez aprende el valor de lo esencial: el pan compartido, la solidaridad entre vecinos, el ingenio para resolver con poco, la gratitud por lo pequeño."*
+
+Allí donde no llegan las instituciones ni los discursos vacíos, florece la **creatividad cotidiana**: la madre que multiplica recursos para alimentar a sus hijos, el joven que sueña con salir adelante a pesar de las barreras, el vecino que comparte su último plato.
+
+Ese poder cotidiano —que no se mide en dinero ni en títulos— es el que mantiene viva a una nación. **Es el poder que nace desde abajo.**
+
+## Una Propuesta Integral: Desarrollo Humano y Espiritual
+
+"Los de Abajo" no se queda en el diagnóstico. Propone un camino de **reconstrucción interior y colectiva** a través de:
+
+### 🤝 Espacios Comunitarios
+Crear lugares de encuentro donde la gente pueda compartir, aprender y crecer juntos, recuperando el tejido social que el sistema ha fragmentado.
+
+### 📚 Talleres de Formación
+Educación emocional, política y espiritual para el desarrollo integral de las personas. No basta con dar ayuda: hay que acompañar procesos de transformación genuina.
+
+### 💪 Grupos de Crecimiento
+Espacios de apoyo mutuo donde descubrir fortalezas colectivas y trabajar las debilidades desde la solidaridad, no desde la competencia.
+
+### ✨ Reconocimiento de Valor
+Ayudar a cada persona a **reconocerse como valiosa** y capaz de aportar algo único al mundo, rompiendo con la baja autoestima que el sistema impone.
+
+## El Desarrollo Espiritual desde la Necesidad
+
+Una de las reflexiones más profundas del proyecto es que **la pobreza puede convertirse en fuente de desarrollo espiritual**:
+
+> *"Hay quienes, desde la pobreza, alcanzan una sabiduría que muchos poderosos envidiarían: la sabiduría de saber lo que realmente importa."*
+
+Las personas que han vivido la escasez suelen desarrollar un tipo de madurez distinta. Han aprendido que:
+- La felicidad no se compra
+- El amor no depende del lujo
+- La dignidad se construye cada día
+- Lo esencial es invisible a los ojos del mercado
+
+Esa experiencia, lejos de ser una debilidad, puede despertar **compasión, fe y una conexión más profunda con lo trascendente**.
+
+## Contenidos y Recursos del Proyecto
+
+El sitio ofrece diversos recursos para quienes buscan profundizar en esta visión:
+
+### 📖 Biblioteca Digital
+Lecturas esenciales sobre geopolítica, economía política y pensamiento crítico. Herramientas intelectuales para comprender el mundo desde una perspectiva popular.
+
+### 🎙️ Podcast
+Voces, reflexiones y experiencias desde los movimientos populares. Conversaciones que no llegan a los medios masivos pero que construyen conciencia desde abajo.
+
+### ✍️ Blog y Artículos
+Análisis profundos sobre la realidad social, política y económica desde la mirada de quienes no se conforman con las narrativas oficiales.
+
+## ¿Por Qué Este Proyecto es Necesario Hoy?
+
+En una época donde:
+- **La desigualdad crece exponencialmente**
+- **Los discursos políticos están vacíos de contenido genuino**
+- **Las clases medias se aferran al individualismo y al miedo**
+- **Las élites se desconectan cada vez más de la realidad**
+
+"Los de Abajo" propone un retorno a lo esencial: **el valor de lo humano por encima del valor del capital**.
+
+No es un proyecto asistencialista ni paternalista. Es una **llamada al reconocimiento del poder que ya existe** en la base de la sociedad. Un poder que solo necesita organizarse, tomar conciencia de sí mismo y actuar colectivamente.
+
+## La Invitación: Descubre el Poder que Llevas Dentro
+
+El proyecto invita a todos —especialmente a quienes se sienten excluidos, marginados o sin voz— a **reconocer su propio poder**. No el poder del dinero o la fuerza, sino el poder de:
+
+- La conciencia que despierta
+- La solidaridad que une
+- La dignidad que no se negocia
+- La resistencia que no se quiebra
+
+### Un Movimiento en Construcción
+
+"Los de Abajo" está en constante crecimiento, y busca **sumar voces, experiencias y propuestas** desde toda Latinoamérica y el mundo hispanohablante.
+
+Si alguna vez sentiste que tu vida, tu esfuerzo o tu historia no importaban para el sistema, este proyecto te dice lo contrario: **tú eres el poder**. Y cuando los de abajo toman conciencia de eso, las pirámides empiezan a temblar.
+
+## Conclusión: La Revolución que Empieza por Reconocernos
+
+"Los de Abajo" no promete soluciones mágicas ni líderes salvadores. Propone algo mucho más profundo y duradero: **un cambio de conciencia**.
+
+Reconocer que el verdadero poder no está en quienes nos gobiernan desde arriba, sino en quienes sostienen el mundo desde abajo.
+
+Que la pobreza no es sinónimo de impotencia, sino de potencial sin explotar.
+
+Que la dignidad no se mendiga, se reconoce y se defiende colectivamente.
+
+**El proyecto está disponible en [losdeabajo.lovable.app](https://losdeabajo.lovable.app)**
+
+Y la pregunta que deja resonando es simple pero poderosa:
+
+> **¿Estás listo para reconocer tu propio poder?**
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Artículo sobre el proyecto "Los de Abajo"</p>
+  <p class="text-sm text-muted-foreground">Visita el proyecto: <a href="https://losdeabajo.lovable.app" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">losdeabajo.lovable.app</a></p>
+  <p class="text-sm text-muted-foreground mt-2">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#PoderPopular</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#LosDeAbajo</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ConcienciaSocial</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Dignidad</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Solidaridad</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#MovimientoPopular</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Transformación</span>
+  </div>
+</div>
+    `,
+    image: "/images/article-los-de-abajo-proyecto.jpg",
+    category: "Sociedad",
+    date: "2025-11-06",
+    author: "El Divergente"
+  },
+  {
     id: "trabajo-dignifica-mentira-moral",
     title: '"El trabajo dignifica": la gran mentira moral de la modernidad',
     excerpt: "Durante siglos repetimos que el trabajo dignifica. Pero bajo esa virtud se oculta una de las narrativas más poderosas del control social moderno.",
